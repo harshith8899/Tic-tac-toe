@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 0; /* No gap between cells */
+    margin: 20px auto;
+    width: max-content;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    position: relative;
+}
+
+.cell::before,
+.cell::after {
+    content: "";
+    position: absolute;
+    background-color: black;
+}
+
+.cell:nth-child(1)::after,
+.cell:nth-child(2)::after,
+.cell:nth-child(4)::after,
+.cell:nth-child(5)::after,
+.cell:nth-child(7)::after,
+.cell:nth-child(8)::after {
+    width: 100%;
+    height: 4px;
+    top: 100%;
+    left: 0;
+}
+
+.cell:nth-child(1)::before,
+.cell:nth-child(3)::before,
+.cell:nth-child(4)::before,
+.cell:nth-child(6)::before,
+.cell:nth-child(7)::before,
+.cell:nth-child(9)::before {
+    width: 4px;
+    height: 100%;
+    left: 100%;
+    top: 0;
+}
