@@ -33,6 +33,13 @@
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
+.title img {
+    width: 30px; /* Adjust as needed */
+    height: 30px;
+    vertical-align: middle;
+  }
+  
+
 .reset:hover {
     background: linear-gradient(135deg, burlywood, #d4a373);
     transform: scale(1.05);
