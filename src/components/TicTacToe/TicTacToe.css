@@ -5,7 +5,7 @@
 
 .title {
     margin-top: 20px;
-    color: white;
+    color: rebeccapurple;
     font-size: 40px;
     display: flex;
     justify-content: center;
@@ -14,7 +14,7 @@
 }
 
 .title span {
-    color: burlywood;
+    color: maroon;
     padding-left: 10px;
 }
 
@@ -55,7 +55,7 @@
 .boxes {
     height: 90px;
     width: 90px;
-    background: salmon;
+    background: whitesmoke;
     border: 3px solid black;
     border-radius: 10px;
     cursor: pointer;
@@ -68,8 +68,14 @@
     transition: 0.2s ease-in-out;
 }
 
+.boxes img {
+    width: 80%; /* Make the image fit inside the box */
+    height: 80%;
+    object-fit: contain; /* Ensures the image doesn't stretch */
+}
+
 .boxes:hover {
-    background: rgba(250, 128, 114, 0.8);
+    background: rgb(209, 195, 195);
     transform: scale(1.05);
 }
 
