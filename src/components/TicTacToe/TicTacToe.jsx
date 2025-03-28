@@ -139,7 +139,9 @@ const TicTacToe = () => {
                 onChange={(e) => setPlayerO(e.target.value)}
                 required
               />
-              <button type="submit">Start Game</button>
+              
+                <button type="submit">Start Game</button>
+             
             </form>
           </div>
         ) : (

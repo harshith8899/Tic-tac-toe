@@ -94,3 +94,70 @@
 .boxes:nth-child(6) {
     margin-bottom: 8px; /* Adds spacing between rows */
 }
+
+.player-form{
+    text-align:center;
+    margin-top:50px;
+    color:blueviolet;
+}
+
+.player-form h1 {
+    font-size: 30px;
+    color: rebeccapurple;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.player-form input{
+    width:250px;
+    height: 25px;
+    border-radius: 10px;
+    margin:10px;
+    padding:10px;
+    font-size: 20px;
+    text-align: center;
+    transition: 0.3s ease-in-out;
+    font-family: 'poppins', sans-serif;
+    border:2px solid rebeccapurple;
+}
+
+.player-form button {
+    margin-top: 10px;
+    color: white;
+    width: 120px;
+    height: 45px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 25px;
+    background: linear-gradient(135deg, #d4a373, burlywood);
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    display: flexbox;
+    text-align: center;
+}
+.player-form button:hover {
+    background: linear-gradient(135deg, burlywood, #d4a373);
+    transform: scale(1.05);
+}
+.restart{
+    color: white;
+    width: 100px;
+    height: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 25px;
+    background: linear-gradient(135deg, #d4a373, burlywood);
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+
+
