@@ -10,7 +10,7 @@ I have made a Tic-Tac-Toe game in React with a simple user interface. Players ca
 
 ## Deployment
 - Vercel
-- link [tic-tac-toe-nine-vert.vercel.app]
+  ![link](tic-tac-toe-nine-vert.vercel.app) 
  
 ## Video Demonstration
 Watch the video demonstration here: [Video Link](https://drive.google.com/file/d/1HCUHsDKOT1OauHAJEqaGzKH0zyPt2L8q/view?usp=sharing)
